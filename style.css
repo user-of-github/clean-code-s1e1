@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.wrapper .more-inf {
+.wrapper .more-information {
   font-family: fantasy, cursive;
 }
 
@@ -26,7 +26,7 @@ body {
   }
 }
 
-.centered-main-page-element {
+.centered {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -38,7 +38,7 @@ body {
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.task-row {
   display: flex;
 }
 
