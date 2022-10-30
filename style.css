@@ -49,11 +49,13 @@ body {
   padding: 0px;
 }
 
-.tasks-list li, h3 {
+.tasks-list li,
+h3 {
   list-style: none;
 }
 
-input, button {
+input,
+button {
   outline: none;
 }
 
@@ -72,7 +74,8 @@ input, button {
 }
 
 /* Heading */
-.subtitle, .add-item-label{
+.subtitle,
+.add-item-label{
   color: #333;
   font-weight: 700;
   font-size: 15px;
