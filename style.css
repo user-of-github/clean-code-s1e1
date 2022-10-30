@@ -22,7 +22,7 @@ body {
 
 @media (max-width: 768px) {
 
-  .wrapper {
+  .header {
     text-align: center;
   }
 
@@ -85,7 +85,7 @@ button {
   text-transform: uppercase;
 }
 
-.task {
+input.task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -98,7 +98,7 @@ button {
   color: #888;
 }
 
-.task:focus {
+input.task:focus {
   color: #333;
 }
 
