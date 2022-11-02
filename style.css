@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: lato, sans-serif;
@@ -50,7 +50,7 @@ body {
 }
 
 .tasks-list li,
-h3 {
+.subtitle {
   list-style: none;
 }
 
@@ -75,7 +75,7 @@ button {
 
 /* Heading */
 .subtitle,
-.add-item__title{
+.add-item__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -123,7 +123,9 @@ input.task-row__task:focus {
   align-items: center;
 }
 
-.tasks-list__item > * {
+.tasks-list__item > .checkbox,
+.tasks-list__item > .task-row__task,
+.tasks-list__item > .button {
   vertical-align: middle;
 }
 
