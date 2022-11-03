@@ -49,7 +49,7 @@
   padding: 0;
 }
 
-.tasks-list li,
+.tasks-list .tasks-list__item,
 .subtitle {
   list-style: none;
 }
@@ -98,7 +98,7 @@ button {
   color: #888;
 }
 
-input.task-row__task:focus {
+.input.task-row__task:focus {
   color: #333;
 }
 
