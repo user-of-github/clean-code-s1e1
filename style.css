@@ -141,7 +141,7 @@ input.task-row__task:focus {
 }
 
 .tasks-list__item > input.task-row__task {
-  width: 226px
+  width: 226px;
 }
 
 .button.delete .delete__icon {
@@ -162,12 +162,12 @@ input.task-row__task:focus {
 
 /* Edit Task */
 .tasks-list__item input.task-row__task {
-  display: none
+  display: none;
 }
 
 .edit-mode input.task-row__task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode label.task-row__task {
