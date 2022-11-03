@@ -5,18 +5,18 @@
   font-family: lato, sans-serif;
 }
 
-.wrapper {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.wrapper img {
+.header .demo {
   width: 100%;
 }
 
-.wrapper .more-information {
+.header .more-information {
   font-family: fantasy, cursive;
 }
 
@@ -85,7 +85,7 @@ button {
   text-transform: uppercase;
 }
 
-input.task-row__task {
+.input.task-row__task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -133,14 +133,14 @@ input.task-row__task:focus {
   margin: 0 10px;
 }
 
-.tasks-list__item > label.task-row__task {
+.tasks-list__item > .label.task-row__task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.tasks-list__item > input.task-row__task {
+.tasks-list__item > .input.task-row__task {
   width: 226px;
 }
 
@@ -155,21 +155,21 @@ input.task-row__task:focus {
 }
 
 /* Completed */
-#completed-tasks label.task-row__task {
+#completed-tasks .label.task-row__task {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.tasks-list__item input.task-row__task {
+.tasks-list__item .input.task-row__task {
   display: none;
 }
 
-.edit-mode input.task-row__task {
+.edit-mode .input.task-row__task {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label.task-row__task {
+.edit-mode .label.task-row__task {
   display: none;
 }
